@@ -4,6 +4,7 @@ int distanciaLinea;
 int numEscalones = 10; // Número de escalones que dibujo
 // el metodo principal
  public void setup() {
+background(19);
   size(500, 500);
   distanciaLinea = 62;
   puntoA = new PVector(0, distanciaLinea);
