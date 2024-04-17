@@ -1,6 +1,6 @@
 PVector puntoA, puntoB, puntoC, puntoD;
 int distanciaLinea;
-int numEscalones = 5; // Número de escalones a dibujar
+int numEscalones = 10; // Número de escalones que dibujo
 
 void setup() {
   size(500, 500);
