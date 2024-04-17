@@ -1,23 +1,23 @@
-// declaro los puntos
 PVector puntoA, puntoB, puntoC, puntoD;
 int distanciaLinea;
-int numEscalones = 10; // Número de escalones que dibujo
-// el metodo principal
- public void setup() {
-background(19);
+int numEscalones = 10; // Número de escalones a dibujar
+
+void setup() {
   size(500, 500);
+  background(19);
   distanciaLinea = 62;
   puntoA = new PVector(0, distanciaLinea);
 
-  // Dibujar los escalones
+  // Dibuja los escalones
   for (int i = 0; i < numEscalones; i++) {
     dibujarEscalon();
-dibujarPunto();
+    dibujarPunto();
   }
 }
 
 void dibujarEscalon() {
-  stroke(#11F0DF);
+  stroke(0,191,255);
+  strokeWeight(5);
   puntoB = new PVector(puntoA.x + distanciaLinea, puntoA.y);
   line(puntoA.x, puntoA.y, puntoB.x, puntoB.y);
   puntoC = new PVector(puntoB.x, puntoB.y + distanciaLinea);
