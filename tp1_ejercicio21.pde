@@ -1,3 +1,4 @@
+//declaro los puntos
 PVector puntoA, puntoB, puntoC, puntoD;
 int distanciaLinea;
 int numEscalones = 10; // Número de escalones a dibujar
